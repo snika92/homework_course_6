@@ -36,25 +36,30 @@
                 <!-- элементы меню -->
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
                     <li class="nav-item">
-                        <a href="#" class="nav-link align-middle px-0">
+                        <a href="home.html" class="nav-link align-middle px-0">
                             <i class="fs-4 bi-house"></i>
                             <span class="ms-1 d-none d-sm-inline">Главная</span>
                         </a>
                     </li>
 
                     <li>
-                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-speedometer2"></i> <span
-                                class="ms-1 d-none d-sm-inline">Категории</span> </a>
-                    </li>
+                            <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                                <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline">Категории</span>
+                            </a>
+                            <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                                <li class="w-100">
+                                    <a href="category.html" class="nav-link px-0"> <span class="d-none d-sm-inline">Категория 1</span></a>
+                                </li>
+                            </ul>
+                        </li>
 
                     <li>
-                        <a href="#" class="nav-link px-0 align-middle">
-                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Заказы</span>
+                        <a href="catalog.html" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline">Каталог</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link px-0 align-middle">
+                        <a href="contacts.html" class="nav-link px-0 align-middle">
                             <i class="fs-4 bi-person-circle"></i> <span class="ms-1 d-none d-sm-inline">Контакты</span>
                         </a>
                     </li>
